@@ -1,0 +1,117 @@
+/* Resetting css */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+/* genral style */
+.parent {
+  background: url("/asset/images/bg.png") no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+a {
+  color: #242424;
+}
+
+button {
+  text-transform: capitalize;
+  background: #ffee7a;
+  padding: 18px 90px 18px 90px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  margin-top: 1.5rem;
+}
+
+#btn {
+  box-shadow: 0px 16px 32px 0px #d1b60040;
+}
+
+/* typography */
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  color: #242424;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 58px;
+}
+
+p {
+  line-height: 1.75rem;
+  letter-spacing: 0.075rem;
+}
+
+/* specific style */
+.hero {
+  height: 100vh;
+  align-items: center;
+}
+
+.hero .copy p {
+  width: 80%;
+  padding-top: 0.625rem;
+}
+
+.assets img {
+  width: 100%;
+  height: auto;
+}
