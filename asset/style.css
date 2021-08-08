@@ -2,34 +2,28 @@
 html {
   box-sizing: border-box;
 }
-
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 img,
 video {
   max-width: 100%;
 }
-
 img {
   border-style: none;
 }
-
 a,
 a:visited {
   color: inherit;
   text-decoration: none;
 }
-
 article,
 aside,
 footer,
@@ -39,79 +33,142 @@ section,
 main {
   display: block;
 }
+/* Resetting css ends*/
 
 /* genral style */
 .parent {
   background: url("/asset/images/bg.png") no-repeat;
   background-size: cover;
 }
-
 .container {
-  max-width: 1280px;
+  max-width: 952px;
   width: 90%;
   margin: auto;
 }
-
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
 }
-
 a {
   color: #242424;
 }
-
 button {
   text-transform: capitalize;
   background: #ffee7a;
-  padding: 18px 90px 18px 90px;
+  padding-left: 78px;
+  padding-right: 78px;
+  height: 40px;
+  font-size: 0.875rem;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   cursor: pointer;
   outline: none;
   display: block;
   margin-top: 1.5rem;
 }
-
-#btn {
-  box-shadow: 0px 16px 32px 0px #d1b60040;
-}
+/* genral style ends*/
 
 /* typography */
 body {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   color: #242424;
 }
-
 h1,
 h2,
 h3 {
   font-family: "Oswald", sans-serif;
 }
-
 h2 {
-  font-size: 3rem;
-  line-height: 58px;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
-
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.95rem;
+}
 p {
   line-height: 1.75rem;
-  letter-spacing: 0.075rem;
+  letter-spacing: 0.05rem;
 }
+/* typography ends*/
 
 /* specific style */
 .hero {
   height: 100vh;
   align-items: center;
 }
-
 .hero .copy p {
-  width: 80%;
   padding-top: 0.625rem;
 }
-
 .assets img {
   width: 100%;
   height: auto;
 }
+#form {
+  padding: 2rem 1.5rem;
+  background: #242424;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#form > div {
+  margin-top: 1rem;
+  color: #fff;
+  line-height: 1.75rem;
+  letter-spacing: 0.075rem;
+}
+#form > div:nth-child(6) {
+  display: flex;
+  align-content: center;
+}
+#form > div:nth-child(6) > span {
+  padding-left: 0.5rem;
+  font-size: 0.75rem;
+}
+#form > div:nth-child(8),
+#form > div > button {
+  margin: 1rem auto 0 auto;
+}
+#form > div > p > span {
+  color: #ffee7a;
+  font-weight: 800;
+}
+input {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.075rem;
+  background: #e9e9e9;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.125px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 0.125rem;
+  outline: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+#btn {
+  box-shadow: 0 1rem 3rem 0 #d1b60040;
+}
+.child {
+  grid-gap: 5rem;
+}
+.copy-text {
+  margin-top: 4em;
+}
+.copy-text > div {
+  margin-top: 0.6em;
+}
+/* specific style ends*/
