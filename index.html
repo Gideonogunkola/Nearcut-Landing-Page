@@ -1,207 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nearcut | Landing Page</title>
-    <link
-      rel="shortcut icon"
-      type="image/jpg"
-      href="/asset/images/favicon.png"
-    />
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="/asset/style.css" />
-    <link rel="stylesheet" href="/asset/responsiveness.css" />
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Oswald:wght@200;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- iconify -->
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-  </head>
 
-  <body>
-    <main class="parent">
-      <!-- hero-section  -->
-      <section class="hero">
-        <div class="container">
-          <div class="wrapper hero">
-            <div class="copy">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nearcut | Landing Page</title>
+  <link rel="shortcut icon" type="image/jpg" href="/asset/images/favicon.png" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/asset/style.css" />
+  <link rel="stylesheet" href="/asset/responsiveness.css" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Oswald:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- iconify -->
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <!-- Internantion telephone Input -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+  <main class="parent">
+    <!-- hero-section  -->
+    <section class="hero">
+      <div class="container">
+        <div class="wrapper hero">
+          <div class="copy">
+            <div>
+              <h2>
+                The Completely Powerful <br />
+                Booking System for Barbers
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque maecenas sed faucibus volutpat id eleifend quis
+                elementum
+              </p>
+              <button id="btn"><a href="#">get started</a></button>
+            </div>
+          </div>
+          <div class="assets">
+            <img src="/asset/images/phone.png" alt="phone" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero-section-ends-->
+
+    <!-- registration-section -->
+    <section class="registration">
+      <div class="container container-2">
+        <div class="wrapper child">
+          <div class="form">
+            <form id="form">
               <div>
-                <h2>The Completely Powerful <br> Booking System for Barbers</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque maecenas sed faucibus volutpat id eleifend quis
-                  elementum
-                </p>
-                <button id="btn"><a href="#">get started</a></button>
+                <label for="name">Full Name</label>
+                <input type="text" placeholder="Please enter your full name" name="name" id="name" />
               </div>
-            </div>
-            <div class="assets">
-              <img src="/asset/images/phone.png" alt="phone" />
+              <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Please enter your Email" name="email" id="email" />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" />
+              </div>
+              <div>
+                <label for="Business">Business Name</label>
+                <input type="text" placeholder="Please enter your business name" name="Business" id="biz" />
+              </div>
+              <div>
+                <label for="name">Country</label>
+                <select name="country" id="country">
+                  <option value="Germany">Germany</option>
+                </select>
+              </div>
+              <div>
+                <input type="checkbox" name="agree" id="checkbox" />
+                <span>
+                  I agree to all terms & conditions and policy features.
+                </span>
+              </div>
+              <div>
+                <button class="btn-sec">Create your account</button>
+              </div>
+              <div>
+                <p>
+                  Already have a Nearcut account?
+                  <span><a href="#"> Login Here</a></span>
+                </p>
+              </div>
+            </form>
+          </div>
+          <div class="copy-text">
+            <h3>
+              Complete the registration <br />
+              form to get started
+            </h3>
+            <div class="paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque maecenas sed faucibus volutpat id eleifend quis
+                elementum.
+              </p>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque maecenas sed faucibus volutpat id eleifend quis
+                elementum.
+              </p>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque maecenas sed faucibus volutpat id eleifend quis
+                elementum.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- hero-section-ends-->
+      </div>
+    </section>
+    <!-- registration-section-ends -->
 
-      <!-- registration-section -->
-      <section class="registration">
-        <div class="container container-2">
-          <div class="wrapper child">
-            <div class="form">
-              <form id="form">
-                <div>
-                  <label for="name">Full Name</label>
-                  <input
-                    type="text"
-                    placeholder="Please enter your full name"
-                    name="name"
-                    id=""
-                  />
-                </div>
-                <div>
-                  <label for="email">Email</label>
-                  <input
-                    type="email"
-                    placeholder="Please enter your Email"
-                    name="email"
-                    id=""
-                  />
-                </div>
-                <div>
-                  <label for="number">Phone Number</label>
-                  <input
-                    type="tel"
-                    placeholder="000 000 000"
-                    name="number"
-                    id=""
-                  />
-                </div>
-                <div>
-                  <label for="Business">Business Name</label>
-                  <input
-                    type="text"
-                    placeholder="Please enter your business name"
-                    name="Business"
-                    id=""
-                  />
-                </div>
-                <div>
-                  <label for="name">Country</label>
-                  <input
-                    type="text"
-                    placeholder="Please enter your full name"
-                    name="name"
-                    id=""
-                  />
-                </div>
-                <div>
-                  <input type="checkbox" name="agree" id="" />
-                  <span>
-                    I agree to all terms & conditions and policy features.
-                  </span>
-                </div>
-                <div>
-                  <button class="btn-sec">Create your account</button>
-                </div>
-                <div>
-                  <p>
-                    Already have a Nearcut account?
-                    <span><a href="#"> Login Here</a></span>
-                  </p>
-                </div>
-              </form>
-            </div>
-            <div class="copy-text">
-              <h3>
-                Complete the registration <br />
-                form to get started
-              </h3>
-              <div class="paragraph">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque maecenas sed faucibus volutpat id eleifend quis
-                  elementum.
-                </p>
-                <br />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque maecenas sed faucibus volutpat id eleifend quis
-                  elementum.
-                </p>
-                <br />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque maecenas sed faucibus volutpat id eleifend quis
-                  elementum.
-                </p>
-              </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <img src="/asset/images/logo.svg" alt="" />
+          <p id="tagline">So much more than a booking system</p>
+          <div class="contact">
+            <span class="iconify" data-inline="false" data-icon="carbon:phone-filled"></span>
+            <span id="text">
+              <a href="tel:01606277565"></a> 01 606 277 565</span>
+          </div>
+          <div class="contact">
+            <span class="iconify" data-inline="false" data-icon="ic:sharp-email"></span>
+            <span id="text"><a href="mailto:mail"></a> Email Us</span>
+          </div>
+          <div class="Networks">
+            <h4>Social Media</h4>
+            <div class="social">
+              <span class="iconify" data-inline="false" data-icon="cib:facebook-f"
+                style="color: #ffffff; font-size: 24px"></span>
+              <span class="iconify" data-inline="false" data-icon="bx:bxl-instagram-alt"
+                style="color: #ffffff; font-size: 24px"></span>
+              <span class="iconify" data-inline="false" data-icon="akar-icons:twitter-fill"
+                style="color: #ffffff; font-size: 24px"></span>
+              <span class="iconify" data-inline="false" data-icon="foundation:social-linkedin"></span>
             </div>
           </div>
         </div>
-      </section>
-      <!-- registration-section-ends -->
-
-      <!-- footer -->
-      <footer>
-        <div class="footer">
-          <div class="container">
-            <img src="/asset/images/logo.svg" alt="" />
-            <p id="tagline">So much more than a booking system</p>
-            <div class="contact">
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="carbon:phone-filled"
-              ></span>
-              <span id="text">
-                <a href="tel:01606277565"></a> 01 606 277 565</span
-              >
-            </div>
-            <div class="contact">
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="ic:sharp-email"
-              ></span>
-              <span id="text"><a href="mailto:mail"></a> Email Us</span>
-            </div>
-            <div class="Networks">
-              <h4>Social Media</h4>
-              <div class="social">
-                <span
-                  class="iconify"
-                  data-inline="false"
-                  data-icon="cib:facebook-f"
-                  style="color: #ffffff; font-size: 24px"
-                ></span>
-                <span
-                  class="iconify"
-                  data-inline="false"
-                  data-icon="bx:bxl-instagram-alt"
-                  style="color: #ffffff; font-size: 24px"
-                ></span>
-                <span
-                  class="iconify"
-                  data-inline="false"
-                  data-icon="akar-icons:twitter-fill"
-                  style="color: #ffffff; font-size: 24px"
-                ></span>
-                <span
-                  class="iconify"
-                  data-inline="false"
-                  data-icon="foundation:social-linkedin"
-                ></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </main>
-  </body>
+      </div>
+    </footer>
+  </main>
+</body>
+<!-- script -->
+<script>
+  const phoneInputField = document.querySelector("#phone");
+  const phoneInput = window.intlTelInput(phoneInputField, {
+    initialCountry: "de",
+    nationalmode: true,
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+  });
+  document
+    .getElementById("form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+    });
+</script>
 </html>
