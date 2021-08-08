@@ -1,0 +1,55 @@
+@media only screen and (max-width:1057px) {
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.95rem;
+    }
+    .wrapper {
+        grid-gap: 2.8rem;
+      }
+      .child {
+          display: grid;
+          grid-template-columns: 1.5fr 1fr;
+        grid-gap: 2rem;
+      }
+}
+@media only screen and (max-width:787px) {
+
+    .container-2 {
+        width: 95%;
+        margin: auto;
+      }
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.95rem;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 5.5rem;
+      }
+      .hero {
+        height: 100%;
+        align-items: center;
+      }
+      .child {
+          grid-template-columns:  1fr;
+      }
+      .copy-text{
+          display: none;
+      }
+      .registration{
+          margin-top: 2em;
+      }
+      .social > .iconify {
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin-right: 2.2em;
+        margin-top: 1em;
+      }
+      .footer {
+        background-color: #111111;
+        margin-top: 4.5em;
+        padding: 4.75em 0 3.1875em 0;
+        color: #fff;
+      }
+
+}
