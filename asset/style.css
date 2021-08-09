@@ -76,6 +76,10 @@ button {
     outline: none;
     display: block;
     margin-top: 1.5em;
+    transition: all ease-in 0.3s;
+}
+button:hover{
+    background: #ddcc5e;
 }
 
 /* genral style ends*/
@@ -138,7 +142,7 @@ button {
     height: auto;
 }
 
-#form {
+form {
     padding: 2em 1.5em;
     background: #242424;
     border-radius: 1rem;
@@ -149,7 +153,8 @@ button {
     align-content: center;
 }
 
-#form>div {
+
+form>div {
     margin-top: 1em;
     line-height: 1.75rem;
     letter-spacing: 0.075rem;
@@ -157,33 +162,33 @@ button {
     flex-direction: column;
 }
 
-#form>div>label,
-#form>div>span {
+form>div>label,
+form>div>span {
     color: #fff;
 }
 
-#form>div:nth-child(6) {
+form>div:nth-child(6) {
     display: flex;
     flex-direction: row;
     align-content: center;
 }
 
-#form>div:nth-child(6)>span {
+form>div:nth-child(6)>span {
     padding-left: 0.5rem;
     font-size: 0.75rem;
     line-height: 1.25rem ;
 }
 
-#form>div:nth-child(8),
-#form>div>button {
+form>div:nth-child(8),
+form>div>button {
     margin: 1em auto 0 auto;
 }
 
-#form div p {
+form div p {
     color: #fff;
 }
 
-#form div p span {
+form div p span {
     color: #ffee7a;
     font-weight: 800;
 }
@@ -198,6 +203,11 @@ select {
     line-height: 1.75rem;
     letter-spacing: 0.075rem;
     background: #e9e9e9;
+}
+input:focus,
+select:focus{
+    outline: none !important;
+    border: 1px solid #ffee7a;
 }
 
 input[type="checkbox"] {
