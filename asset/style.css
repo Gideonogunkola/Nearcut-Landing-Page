@@ -171,6 +171,7 @@ button {
 #form>div:nth-child(6)>span {
     padding-left: 0.5rem;
     font-size: 0.75rem;
+    line-height: 1.25rem ;
 }
 
 #form>div:nth-child(8),
@@ -188,7 +189,7 @@ button {
 }
 
 input,
-#country {
+select {
     margin-top: 0.5rem;
     width: 100%;
     height: 40px;
@@ -205,7 +206,6 @@ input[type="checkbox"] {
     border-radius: 0.125rem;
     margin-top: auto;
     margin-bottom: auto;
-    border-radius: 0.125rem;
     outline: none;
     transition-duration: 0.3s;
     cursor: pointer;
